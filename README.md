@@ -1,4 +1,4 @@
-# latex-simple
+# Praktischer Einstieg in LaTeX
 Einfache Einführung in die Arbeit mit LaTeX
 
 Das Repository beinhaltet die LaTeX-Vorlage `protokoll.tex` zum Erstellen eines
