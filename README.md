@@ -9,10 +9,10 @@ sowie das BibTex-Literaturverzeichnis `literatur.bib` bei.
 ## Kompilieren
 ### LaTeX-Editoren
 Der effizienteste Weg mit LaTeX-Dokumenten zu arbeiten ist der Einsatz eines
-LaTeX-Editors wie beispielsweise [texmaker](http://www.xm1math.net/texmaker/) und
-[Kile](http://kile.sourceforge.net/). Diese Verfügen nebennützlichen Funktionen
-wieSyntax-Highlighting und Wortvervöllständigung meist auch eingebaute Lösungen
-zur Erstellung des PDF-Dokumentes.
+LaTeX-Editors wie beispielsweise [texmaker](http://www.xm1math.net/texmaker/)
+oder [Kile](http://kile.sourceforge.net/). Diese Verfügen neben nützlichen
+Funktionen wie Syntax-Highlighting und Wortvervöllständigung meist auch
+eingebaute Lösungen zur Erstellung des PDF-Dokumentes.
 
 ### Kommandozeile
 Zum Kompilieren des PDF-Dokuments empiehlt es sich ein build-tool wie `latexmk`
