@@ -19,4 +19,6 @@ umsetzen.
 Dieser Befehl kann der `.bashrc` hinzugefügt werden, um ihn nicht bei jeder
 neuen Shell-Session auszuführen. Zusätzlich muss sich `latexmk` in einem
 Verzeichnis befinden, das sich im Suchpfad (`PATH`) der aktuellen Shell
-befindet.
+befindet. Sind beide Schritte erledigt, vereinfacht sich der Aufruf zu
+
+`$ latexmk protokoll.tex`
