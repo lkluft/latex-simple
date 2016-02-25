@@ -15,11 +15,11 @@ Funktionen wie Syntax-Highlighting und Wortvervöllständigung meist auch
 eingebaute Lösungen zur Erstellung des PDF-Dokumentes.
 
 ### Kommandozeile
-Zum Kompilieren des PDF-Dokuments empiehlt es sich ein build-tool wie `latexmk`
-zu nutzen. Das Skript trägt automatisch dafür Sorge, dass das Dokument häufig
-genug kompiliert wird, um das Inhaltsverzeichnis, Referenzen und das
-Literaturverzeichnis auf dem aktuellen Stand zu halten. `latexmk` lässt sich auf
-der Kommandozeile wie folgt verwenden:
+Zum Kompilieren des PDF-Dokuments auf der Kommandozeile empiehlt es sich ein
+build-tool wie `latexmk` zu nutzen. Das Skript trägt automatisch dafür Sorge,
+dass das Dokument häufig genug kompiliert wird, um das Inhaltsverzeichnis,
+Referenzen und das Literaturverzeichnis auf dem aktuellen Stand zu halten.
+`latexmk` lässt sich auf der Kommandozeile wie folgt verwenden:
 
 `$ ./latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf protokoll.tex`
 
