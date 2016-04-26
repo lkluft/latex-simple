@@ -21,17 +21,23 @@ dass das Dokument häufig genug kompiliert wird, um das Inhaltsverzeichnis,
 Referenzen und das Literaturverzeichnis auf dem aktuellen Stand zu halten.
 `latexmk` lässt sich auf der Kommandozeile wie folgt verwenden:
 
-`$ ./latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf protokoll.tex`
+```bash
+./latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf protokoll.tex
+```
 
 Diese doch sehr umständliche Eingabe lässt sich vereinfachen, wenn man `latexmk`
 mit einem `alias` überlädt. In der Bash lässt sich dies mit folgendem Kommando
 umsetzen:
 
-`$ alias latexmk='latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf'`
+```bash
+alias latexmk='latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf'
+```
 
 Dieser Befehl kann der `.bashrc` hinzugefügt werden, um ihn nicht bei jeder
 neuen Shell-Session auszuführen zu müssen. Zusätzlich muss sich `latexmk` in
 einem Verzeichnis befinden, das sich im Suchpfad (`PATH`) der aktuellen Shell
 befindet. Sind beide Bedingungen erfüllt, vereinfacht sich der Aufruf zu:
 
-`$ latexmk protokoll.tex`
+```bash
+latexmk protokoll.tex
+```
