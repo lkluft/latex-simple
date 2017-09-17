@@ -19,10 +19,13 @@ Zum Kompilieren des PDF-Dokuments auf der Kommandozeile empiehlt es sich ein
 build-tool wie `latexmk` zu nutzen. Das Skript trägt automatisch dafür Sorge,
 dass das Dokument häufig genug kompiliert wird, um das Inhaltsverzeichnis,
 Referenzen und das Literaturverzeichnis auf dem aktuellen Stand zu halten.
+Eine stabile Version befindet sich im Ordner `bin`. Die folgende Beschreibung
+erwartet, dass sich `latexmk` im `PATH` des Nutzers befindet.
+
 `latexmk` lässt sich auf der Kommandozeile wie folgt verwenden:
 
 ```bash
-./latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf protokoll.tex
+latexmk -e "$pdflatex=q/pdflatex -interaction=nonstopmode/" -pdf protokoll.tex
 ```
 
 Diese doch sehr umständliche Eingabe lässt sich vereinfachen, wenn man `latexmk`
